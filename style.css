@@ -14,9 +14,10 @@ background-color: blue;
 color: white; 
 transition: 0.5s linear;   
 }   
-
-
-
+.knopka {
+text-decoration: none;
+color: black;
+}
 
 nav {
     padding-top: 50px;
@@ -123,12 +124,13 @@ margin-right: 5px ;
 .line {
 display: flex;    
 }
-.footer {
+footer {
 background-color: #00C2FF; 
 color: white;  
 padding: 30px;
 border-radius: 20px; 
 font-size: 20px;
+display: flex;
 }
 .left {
     
@@ -144,8 +146,29 @@ background-color: red;
 color: white;
 transition: 0.5s linear;    
 }
-.footer:hover {
+footer:hover {
 background-color: blue;
 color: white; 
 transition: 0.5s linear;   
+}
+.buy2 {
+width: 100px;
+margin: 0 auto;
+}
+
+li:hover a{
+color: white; 
+transition: 0.5s linear;    
+}
+.soc_merezi {
+display: inline-block;
+padding-left: 250px;  
+
+}
+.class1 {
+display: flex; 
+ 
+}
+.insta {
+padding-left: 10px;    
 }
